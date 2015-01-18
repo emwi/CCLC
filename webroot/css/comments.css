@@ -1,0 +1,48 @@
+#showFormLink {
+float:none;
+width:100%;
+clear:both;
+display:block;
+}
+
+.comments {
+width:100%;
+clear:both;
+}
+
+.comment {
+width:100%;
+clear:both;
+}
+
+.commentImgSpace {
+padding-right:10px;
+float:left;
+}
+
+
+.commentContSpace {
+float:left;
+min-width:50%;
+}
+
+
+.commentInfoSpace {
+clear:both;
+margin-bottom:20px;
+margin-top:10px;
+    float:left;
+    text-align:left;
+}
+
+    .commentInfoSpace form {
+    float:left;
+    text-align:left;
+    }
+
+.comment-form {
+width:100%;
+display:none;
+float:none;
+clear:both;
+}

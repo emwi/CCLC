@@ -1,0 +1,140 @@
+/* Medium devices (desktops, 1014px and up) */
+	@media (min-width: 1014px) {
+    #footer-col-1,
+    #footer-col-2,
+    #footer-col-3, 
+    #footer-col-4 {
+        .column(@columns / 4.19);
+        margin-bottom: @magicNumber;
+    }  
+
+
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+        .column(@columns / 3.30);
+        margin-bottom: @magicNumber;
+
+    }  
+
+}
+
+	/* Medium devices (desktops, 1014px and down) */
+	@media (max-width: 1014px) {
+    #footer-col-1,
+    #footer-col-2,
+    #footer-col-3, 
+    #footer-col-4 {
+        .column(@columns / 4.19);
+        margin-bottom: @magicNumber;
+    }  
+
+
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+        .column(@columns / 3.30);
+        margin-bottom: @magicNumber;
+
+    }  
+	}
+
+
+ 	/* Medium devices (tablets portrait, 890px and down) */
+	@media (max-width: 890px) {
+    #footer-col-1,
+    #footer-col-2,
+    #footer-col-3, 
+    #footer-col-4 {
+        .column(@columns / 4.21);
+        margin-bottom: @magicNumber !important;
+    }  
+
+	#featured-1,
+#featured-2,
+#featured-3,
+{
+        .column(@columns / 3.30);
+        margin-bottom: @magicNumber;
+		height:60px;
+
+    }  
+	}
+
+
+/* Small devices (tablets, 830px and down) */
+@media (max-width: 830px) {
+    #footer-col-1,
+    #footer-col-2,
+    #footer-col-3, 
+    #footer-col-4  {
+       .column(@columns / 4.39);
+        margin-bottom: @magicNumber;
+		height:60px;
+    }
+}
+
+
+/* Extra small devices (phones, less than 750px) */
+@media (max-width: 750px) {
+    #footer-col-1,
+    #footer-col-2,
+    #footer-col-3, 
+    #footer-col-4  {
+        .column(@columns / 1.03);
+        margin-bottom: @magicNumber;
+			height:20px;
+    }
+
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 
+{
+        .column(@columns / 1.07);
+        margin-bottom: @magicNumber;
+	height:30px;
+
+    }  
+
+	.sitetitle
+	{ font-size: @fontSizeH1 * 0.65;
+	left: 80px;}
+
+	.siteslogan {
+  left: 130px;
+  left: 80px;
+}
+
+	#header img {width:20%; max-width:80px;}
+
+	#main {
+    .column(@columns / 1.03); }
+
+	#sidebar {
+   .column(@columns / 1.03);
+
+}
+
+.navbar li {
+width:100%; 
+display:block;
+}
+.navbar li ul {
+display:none;
+}
+
+.navbar nav {display:block;
+background-color:@middlegrey;}
+
+}
+
+
