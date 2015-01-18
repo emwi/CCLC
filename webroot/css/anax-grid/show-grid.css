@@ -1,0 +1,29 @@
+#wrapper {
+    background-image: url(../../img/grid_12_60_20.png);
+    max-width:1050px;
+    margin:0px auto !important;
+       
+}
+#content {
+padding-top:22px;
+}
+
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4,
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3,
+#sidebar,
+#main
+ {
+    background-color: rgba(0, 0, 0, 0.2);
+  font-family: 'Open Sans' sans-serif !important;
+  color:black !important;
+  
+}
+
